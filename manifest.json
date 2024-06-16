@@ -1,0 +1,24 @@
+{
+    "id": "org.masterchief.onlyporn",
+    "version": "0.4.10",
+    "name": "OnlyPorn",
+    "description": "Use your TV remote to its full potential!",
+    "icon": "https://raw.githubusercontent.com/Mast3rCh1ef/addon-asset/main/op.png",
+    "background": "https://raw.githubusercontent.com/Mast3rCh1ef/addon-asset/main/bg.png",
+    "resources": ["catalog", "stream", "meta"],
+    "types": ["movie"],
+    "catalogs": [{
+        "type": "movie",
+        "name": "OnlyPorn: MissAV",
+        "id": "missav",
+        "extra": [{
+            "name": "search"
+        }, {
+            "name": "genre",
+            "options": ["Uncensored leak", "Weekly hot", "Monthly hot", "New Releases"]
+        }, {
+            "name": "skip"
+        }],
+        "extraSupported": ["search", "genre", "skip"]
+    }]
+}
